@@ -39,7 +39,7 @@ const Slider = ({ className, images }) => {
     setPage([wrap(0, images.length, page + newDirection), newDirection]);
 
   return (
-    <div className={twMerge("relative overflow-hidden select-none", className)}>
+    <div className={twMerge("relative overflow-hidden ", className)}>
       <AnimatePresence initial={false} custom={direction}>
         {/*eslint-disable-next-line react/prop-types*/}
         <motion.img
@@ -50,7 +50,7 @@ const Slider = ({ className, images }) => {
           exit="exit"
           src={images[page]}
           key={images[page]}
-          className="w-full h-full object-cover absolute select-none left-0 top-0"
+          className="w-full h-full object-cover absolute left-0 top-0"
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
           dragElastic={1}
