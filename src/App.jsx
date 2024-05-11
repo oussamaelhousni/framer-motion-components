@@ -5,6 +5,16 @@ function App() {
     <>
       <Router>
         <Routes>
+          <Route
+            path="/"
+            element={
+              <div className="bg-zinc-900 flex items-center justify-center w-screen h-screen">
+                <h1 className="text-white text-2xl md:text-4xl">
+                  React Components with Framer motion and tailwind
+                </h1>
+              </div>
+            }
+          />
           <Route path="/slider" element={<SLideshowScreen />} />
         </Routes>
       </Router>
