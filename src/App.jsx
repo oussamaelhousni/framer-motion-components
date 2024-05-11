@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { SLideshowScreen } from "./screens";
+import { SLideshowScreen, TextParallaxContentScreen } from "./screens";
 function App() {
   return (
     <>
@@ -16,6 +16,10 @@ function App() {
             }
           />
           <Route path="/slider" element={<SLideshowScreen />} />
+          <Route
+            path="/parallax-text"
+            element={<TextParallaxContentScreen />}
+          />
         </Routes>
       </Router>
     </>

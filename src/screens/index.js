@@ -1,3 +1,3 @@
 import SLideshowScreen from "./SLideshowScreen";
-
-export { SLideshowScreen };
+import TextParallaxContentScreen from "./TextParallaxContentScreen";
+export { SLideshowScreen, TextParallaxContentScreen };
