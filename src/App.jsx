@@ -1,5 +1,9 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { SLideshowScreen, TextParallaxContentScreen } from "./screens";
+import {
+  SLideshowScreen,
+  TextParallaxContentScreen,
+  StickyCardsScreen,
+} from "./screens";
 function App() {
   return (
     <>
@@ -20,6 +24,7 @@ function App() {
             path="/parallax-text"
             element={<TextParallaxContentScreen />}
           />
+          <Route path="/sticky-cards" element={<StickyCardsScreen />} />
         </Routes>
       </Router>
     </>

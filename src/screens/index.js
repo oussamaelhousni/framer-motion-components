@@ -1,3 +1,4 @@
 import SLideshowScreen from "./SLideshowScreen";
 import TextParallaxContentScreen from "./TextParallaxContentScreen";
-export { SLideshowScreen, TextParallaxContentScreen };
+import StickyCardsScreen from "./StickyCardsScreen";
+export { SLideshowScreen, TextParallaxContentScreen, StickyCardsScreen };
