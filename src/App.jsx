@@ -3,6 +3,7 @@ import {
   SLideshowScreen,
   TextParallaxContentScreen,
   StickyCardsScreen,
+  ModalScreen,
 } from "./screens";
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             element={<TextParallaxContentScreen />}
           />
           <Route path="/sticky-cards" element={<StickyCardsScreen />} />
+          <Route path="/modal" element={<ModalScreen />} />
         </Routes>
       </Router>
     </>
