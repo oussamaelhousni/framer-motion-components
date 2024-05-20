@@ -4,7 +4,8 @@ import {
   TextParallaxContentScreen,
   StickyCardsScreen,
   ModalScreen,
-  KanbanScreen
+  KanbanScreen,
+  HideNavbarScreen,
 } from "./screens";
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/sticky-cards" element={<StickyCardsScreen />} />
           <Route path="/modal" element={<ModalScreen />} />
           <Route path="/kanban" element={<KanbanScreen />} />
+          <Route path="/hide-navbar-on-scroll" element={<HideNavbarScreen />} />
         </Routes>
       </Router>
     </>
