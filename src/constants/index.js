@@ -1,3 +1,3 @@
 import sliderImages from "./sliderImages";
-
-export { sliderImages };
+import DEFAULT_CARDS from "./DEFAULT_CARDS"
+export { sliderImages,DEFAULT_CARDS };

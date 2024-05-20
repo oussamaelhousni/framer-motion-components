@@ -1,3 +1,3 @@
 import Slider from "./Slider";
-
-export { Slider };
+import Board from "./Board";
+export { Slider,Board };
